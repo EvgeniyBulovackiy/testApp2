@@ -9,7 +9,7 @@ import $ from 'jquery';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  private serverUrl = 'http://localhost:8080/socket'
+  private serverUrl = 'https://springwebsocketjava.herokuapp.com/socket'
   private title = 'WebSockets chat';
   private stompClient;
 
